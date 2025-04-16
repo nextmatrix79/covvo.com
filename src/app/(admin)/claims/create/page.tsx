@@ -353,7 +353,7 @@ export default function CreateClaimPage() {
                       $. 20,000/-
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                      <DeleteIcon onClick={() => handleDelete(item.id)} />
+                      <DeleteIcon onClick={() => handleDelete(0)} />
                     </td>
                   </tr>
                   <tr>
@@ -367,7 +367,7 @@ export default function CreateClaimPage() {
                       $. 20,000/-
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                      <DeleteIcon onClick={() => handleDelete(item.id)} />
+                      <DeleteIcon onClick={() => handleDelete(0)} />
                     </td>
                   </tr>
                 </tbody>

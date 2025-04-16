@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9517d7df-2ddb-41a6-aa44-5ab9ae9b4357" name="Changes" comment="frontend updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(admin)/files/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/files/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(admin)/messages/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/messages/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(admin)/notifications/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/notifications/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(admin)/reports/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/reports/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(admin)/users/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/users/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(admin)/claims/create/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/claims/create/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(admin)/claims/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/claims/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +80,7 @@
       <workItem from="1744731808900" duration="1159000" />
       <workItem from="1744783939330" duration="2051000" />
       <workItem from="1744786085887" duration="5761000" />
-      <workItem from="1744826728650" duration="870000" />
+      <workItem from="1744826728650" duration="1059000" />
     </task>
     <task id="LOCAL-00001" summary="frontend updated">
       <option name="closed" value="true" />
@@ -94,13 +90,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744827627071</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="frontend updated">
+      <option name="closed" value="true" />
+      <created>1744827876782</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744827876782</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="frontend updated" />
     <option name="LAST_COMMIT_MESSAGE" value="frontend updated" />
   </component>

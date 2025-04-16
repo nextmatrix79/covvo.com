@@ -148,13 +148,13 @@ export default function ClaimsPage() {
         <div className="flex justify-between items-center mb-4 gap-4">
           {/* Left Section - Date with Navigation Arrows */}
           <div className="flex items-center gap-2">
-            <Button variant="outline" size="icon" className="h-10 w-10">
+            <Button variant="outline" className="h-10 w-10">
               <ChevronLeft className="w-4 h-4" />
             </Button>
             <Button variant="outline" className="h-10 px-4 py-2 text-sm">
               March, 2025
             </Button>
-            <Button variant="outline" size="icon" className="h-10 w-10">
+            <Button variant="outline" className="h-10 w-10">
               <ChevronRight className="w-4 h-4" />
             </Button>
           </div>
@@ -263,7 +263,7 @@ export default function ClaimsPage() {
                       </span>
                     </td>
                     <td className="p-3">
-                      <Button variant="outline" size="sm">
+                      <Button variant="outline">
                         ...
                       </Button>
                     </td>
