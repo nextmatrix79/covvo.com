@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9517d7df-2ddb-41a6-aa44-5ab9ae9b4357" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ecosystem.config.js" afterDir="false" />
+    <list default="true" id="9517d7df-2ddb-41a6-aa44-5ab9ae9b4357" name="Changes" comment="frontend updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(admin)/files/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/files/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(admin)/messages/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/messages/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(admin)/notifications/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/notifications/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(admin)/reports/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/reports/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(admin)/users/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/users/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\Suhaib\\covvo\\covvo.com\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "/Users/macbookpro/Documents/Code-N-Code/Projects/Organization-Projects/covvo/covvo.com/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -81,11 +84,24 @@
       <workItem from="1744731808900" duration="1159000" />
       <workItem from="1744783939330" duration="2051000" />
       <workItem from="1744786085887" duration="5761000" />
-      <workItem from="1744826728650" duration="546000" />
+      <workItem from="1744826728650" duration="870000" />
     </task>
+    <task id="LOCAL-00001" summary="frontend updated">
+      <option name="closed" value="true" />
+      <created>1744827627071</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744827627071</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="frontend updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend updated" />
   </component>
 </project>
