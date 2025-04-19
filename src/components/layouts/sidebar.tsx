@@ -27,22 +27,22 @@ export default function Sidebar() {
                 <div className="mb-8">
                     <h2 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">Menu</h2>
                     <ul className="space-y-2">
-                        <SidebarItem href="/Dashboard" icon={<HomeIcon className="h-5 w-5"/>} text="Dashboard"/>
-                        <SidebarItem href="/admin/claims" icon={<DocumentTextIcon className="h-5 w-5"/>} text="Claims"/>
-                        <SidebarItem href="/admin/users" icon={<UsersIcon className="h-5 w-5"/>} text="Users"/>
-                        <SidebarItem href="/admin/reports" icon={<ChartBarIcon className="h-5 w-5"/>} text="Reports"/>
-                        <SidebarItem href="/admin/notifications" icon={<BellIcon className="h-5 w-5"/>}
+                        <SidebarItem href="/" icon={<HomeIcon className="h-5 w-5"/>} text="Dashboard"/>
+                        <SidebarItem href="/claims" icon={<DocumentTextIcon className="h-5 w-5"/>} text="Claims"/>
+                        <SidebarItem href="/users" icon={<UsersIcon className="h-5 w-5"/>} text="Users"/>
+                        <SidebarItem href="/reports" icon={<ChartBarIcon className="h-5 w-5"/>} text="Reports"/>
+                        <SidebarItem href="/notifications" icon={<BellIcon className="h-5 w-5"/>}
                                      text="Notifications"/>
-                        <SidebarItem href="/admin/messages" icon={<EnvelopeIcon className="h-5 w-5"/>} text="Messages"/>
-                        <SidebarItem href="/admin/files" icon={<FolderIcon className="h-5 w-5"/>} text="File Manager"/>
+                        <SidebarItem href="/messages" icon={<EnvelopeIcon className="h-5 w-5"/>} text="Messages"/>
+                        <SidebarItem href="/files" icon={<FolderIcon className="h-5 w-5"/>} text="File Manager"/>
                     </ul>
                 </div>
 
                 <div>
                     <h2 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">Support</h2>
                     <ul className="space-y-2">
-                        <SidebarItem href="/admin/settings" icon={<CogIcon className="h-5 w-5"/>} text="Settings"/>
-                        <SidebarItem href="/admin/verifications" icon={<ShieldCheckIcon className="h-5 w-5"/>}
+                        <SidebarItem href="/settings" icon={<CogIcon className="h-5 w-5"/>} text="Settings"/>
+                        <SidebarItem href="/verifications" icon={<ShieldCheckIcon className="h-5 w-5"/>}
                                      text="Verifications"/>
                         <li className="w-full">
                             <button onClick={()=>dispatch(clearAuthState())}

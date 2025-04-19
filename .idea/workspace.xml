@@ -5,7 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9517d7df-2ddb-41a6-aa44-5ab9ae9b4357" name="Changes" comment="frontend updated">
+      <change afterPath="$PROJECT_DIR$/src/components/pages/claim/claim-details.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/claim/claim-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/claim/claim-list-backup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/claim/claim-list.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/page-wrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/table-component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(admin)/claims/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/claims/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(admin)/files/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/files/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(admin)/messages/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/messages/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(admin)/notifications/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/notifications/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(admin)/reports/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/reports/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(admin)/users/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/users/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/protected.layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/protected.layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/checkbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/checkbox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/slices/claim.slice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/slices/claim.slice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -27,6 +47,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2vcaaDyFNQkuPdoBPKpIrIE5znp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,18 +59,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/macbookpro/Documents/Code-N-Code/Projects/Organization-Projects/covvo/covvo.com",
+    "last_opened_file_path": "/Users/macbookpro/Documents/Code-N-Code/Projects/Organization-Projects/covvo/covvo.com/src/components/pages/claim",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "ts.external.directory.path": "/Users/macbookpro/Documents/Code-N-Code/Projects/Organization-Projects/covvo/covvo.com/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/pages/claim" />
       <recent name="D:\Suhaib\covvo\covvo.com\src\store\slices" />
       <recent name="D:\Suhaib\covvo\covvo.com\src\config" />
       <recent name="D:\Suhaib\covvo\covvo.com\src\lib" />
@@ -78,7 +103,7 @@
       <workItem from="1744731808900" duration="1159000" />
       <workItem from="1744783939330" duration="2051000" />
       <workItem from="1744786085887" duration="5761000" />
-      <workItem from="1744826728650" duration="1229000" />
+      <workItem from="1744826728650" duration="9345000" />
     </task>
     <task id="LOCAL-00001" summary="frontend updated">
       <option name="closed" value="true" />
@@ -104,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744828085835</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="frontend updated">
+      <option name="closed" value="true" />
+      <created>1744828261483</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744828261483</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
